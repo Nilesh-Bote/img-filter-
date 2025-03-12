@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img filter</title>
+    <style>
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      .first :nth-child(1) {
+        filter: blur(5px);
+      }
+
+      .first :nth-child(2) {
+        filter: brightness(160%);
+      }
+
+      .first :nth-child(3) {
+        filter: contrast(178%);
+      }
+
+      .first :nth-child(4) {
+        filter: drop-shadow(8px 8px 10px rgb(202, 27, 27));
+      }
+
+      .second :nth-child(1) {
+        filter: grayscale(100%);
+      }
+
+      .second :nth-child(2) {
+        filter: invert(0.2);
+      }
+
+      .second :nth-child(3) {
+        filter: opacity(50%);
+      }
+
+      .second :nth-child(4) {
+        filter: hue-rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img">
+      <div class="first">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <br />
+        <br />
+      </div>
+      <div class="second">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
